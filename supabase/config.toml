@@ -1,0 +1,42 @@
+project_id = "yhweczutxgpathsazuhy"
+
+[api]
+enabled = true
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+# port removed
+
+[studio]
+enabled = true
+# port removed
+
+[inbucket]
+enabled = true
+# port, smtp_port, pop3_port removed
+
+[storage]
+enabled = true
+file_size_limit = "50MiB"
+# port removed
+
+[auth]
+enabled = true
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["https://localhost:3000"]
+jwt_expiry = 3600
+enable_refresh_token_rotation = true
+refresh_token_reuse_interval = 10
+enable_manual_linking = false
+# port removed
+
+[functions.ask]
+verify_jwt = false
+
+[functions.news]
+verify_jwt = false
+
+[functions.financial]
+verify_jwt = false
