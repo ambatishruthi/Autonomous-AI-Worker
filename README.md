@@ -1,4 +1,7 @@
 # Welcome to your Autonomous AI Knowledge Worker
+Here is the deployed link of this project in Netlify
+
+"https://voluble-shortbread-2c4cfd.netlify.app/"
 
 If you want to work locally using your own IDE, you can clone this repo and push changes.
 
